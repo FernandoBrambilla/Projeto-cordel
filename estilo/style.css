@@ -1,0 +1,97 @@
+@charset "utf8";
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: Sriracha, cursive;
+    --font3: Architects Daughter, cursive;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    
+}
+html, body{
+    min-width: 100vp;
+    background-color: darkgray;
+    font-family: var(--font2);
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--font1);
+    font-size: 1.5em;
+}
+header>h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 2em;
+
+}
+header>p{
+    padding-bottom: 50px;
+    font-size: 0.8em;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-family: var(--font1);
+    font-size: 1.3em;
+    text-shadow: 0.5px 0.5px 0px;
+
+}
+section>p{
+    padding-bottom: 2em;
+}
+section#img01{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+
+}
+section#img02{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgb(112, 112, 112);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.63);
+    background-attachment: fixed;
+}
+section.imagem>p{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.61);
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:10px;
+    font-family: var(--font1);
+
+
+
+
+}
